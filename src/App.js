@@ -13,6 +13,13 @@ const SYMBOLS = '😀🎉💖🎩🐶🐱🦄🐬🌍🌛🌞💫🍎🍌🍓�
 class App extends Component {
   cards = this.generateCards()
 
+  /* // première approche pour préserver le this
+  constructor(props) {
+    super(props)
+    this.handleCardClick = this.handleCardClick.bind(this);
+  }
+  */
+
   generateCards() {
     const result = []
     const size = SIDE * SIDE
@@ -24,9 +31,28 @@ class App extends Component {
     return shuffle(result)
   }
 
+  /* // premiere approche pour préserver le this
   handleCardClick(card) {
-    console.log(card, 'clicked')
+    console.log(card, 'clicked', this)
   }
+   */
+
+  // seconde approche pour préserver le this
+  // arrow fct for binding
+  handleCardClick = card => {
+    console.log(card, 'clicked', this)
+  }
+
+
+
+  // troisième approche pour préserver le this
+  // pas encore géré par babel
+  /*
+  @autobind
+  handleCardClick(card) {
+    console.log(card, 'clicked', this)
+  }
+   */
 
   render() {
     const won = new Date().getSeconds() % 2 === 0

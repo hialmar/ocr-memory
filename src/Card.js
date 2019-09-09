@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import './Card.css'
 
@@ -12,4 +13,17 @@ const Card = ({ card, feedback, onClick }) => (
   </div>
 )
 
+
+// La fonction Card ici…
+
+Card.propTypes = {
+  card: PropTypes.string.isRequired,
+  feedback: PropTypes.oneOf([
+    'hidden',
+    'justMatched',
+    'justMismatched',
+    'visible',
+  ]).isRequired,
+  onClick: PropTypes.func.isRequired,
+}
 export default Card

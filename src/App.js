@@ -5,11 +5,12 @@ import './App.css'
 
 import Card from './Card'
 import GuessCount from './GuessCount'
-import HallOfFame, { FAKE_HOF } from './HallOfFame'
+//import HallOfFame, { FAKE_HOF } from './HallOfFame'
+import HallOfFame from './HallOfFame'
 import HighScoreInput from './HighScoreInput'
 
 const SIDE = 6
-const SYMBOLS = '😀🎉💖🎩🐶🐱🦄🐬🌍🌛🌞💫🍎🍌🍓🍐🍟🍿'
+export const SYMBOLS = '😀🎉💖🎩🐶🐱🦄🐬🌍🌛🌞💫🍎🍌🍓🍐🍟🍿'
 const VISUAL_PAUSE_MSECS = 750
 
 class App extends Component {
@@ -83,7 +84,7 @@ class App extends Component {
 
   render() {
     const { cards, guesses, hallOfFame, matchedCardIndices } = this.state
-    const won = matchedCardIndices.length === 4 // cards.length
+    const won = matchedCardIndices.length === cards.length
     return (
       <div className="memory">
         <GuessCount guesses={guesses} />

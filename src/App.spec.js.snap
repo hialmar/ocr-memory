@@ -1,0 +1,1550 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match its reference snapshot`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <GuessCount
+          guesses={0}
+        />,
+        Array [
+          <Card
+            card="😀"
+            feedback="hidden"
+            index={0}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🎉"
+            feedback="hidden"
+            index={1}
+            onClick={[Function]}
+          />,
+          <Card
+            card="💖"
+            feedback="hidden"
+            index={2}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🎩"
+            feedback="hidden"
+            index={3}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🐶"
+            feedback="hidden"
+            index={4}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🐱"
+            feedback="hidden"
+            index={5}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🦄"
+            feedback="hidden"
+            index={6}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🐬"
+            feedback="hidden"
+            index={7}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🌍"
+            feedback="hidden"
+            index={8}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🌛"
+            feedback="hidden"
+            index={9}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🌞"
+            feedback="hidden"
+            index={10}
+            onClick={[Function]}
+          />,
+          <Card
+            card="💫"
+            feedback="hidden"
+            index={11}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍎"
+            feedback="hidden"
+            index={12}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍌"
+            feedback="hidden"
+            index={13}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍓"
+            feedback="hidden"
+            index={14}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍐"
+            feedback="hidden"
+            index={15}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍟"
+            feedback="hidden"
+            index={16}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍿"
+            feedback="hidden"
+            index={17}
+            onClick={[Function]}
+          />,
+          <Card
+            card="😀"
+            feedback="hidden"
+            index={18}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🎉"
+            feedback="hidden"
+            index={19}
+            onClick={[Function]}
+          />,
+          <Card
+            card="💖"
+            feedback="hidden"
+            index={20}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🎩"
+            feedback="hidden"
+            index={21}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🐶"
+            feedback="hidden"
+            index={22}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🐱"
+            feedback="hidden"
+            index={23}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🦄"
+            feedback="hidden"
+            index={24}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🐬"
+            feedback="hidden"
+            index={25}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🌍"
+            feedback="hidden"
+            index={26}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🌛"
+            feedback="hidden"
+            index={27}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🌞"
+            feedback="hidden"
+            index={28}
+            onClick={[Function]}
+          />,
+          <Card
+            card="💫"
+            feedback="hidden"
+            index={29}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍎"
+            feedback="hidden"
+            index={30}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍌"
+            feedback="hidden"
+            index={31}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍓"
+            feedback="hidden"
+            index={32}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍐"
+            feedback="hidden"
+            index={33}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍟"
+            feedback="hidden"
+            index={34}
+            onClick={[Function]}
+          />,
+          <Card
+            card="🍿"
+            feedback="hidden"
+            index={35}
+            onClick={[Function]}
+          />,
+        ],
+        false,
+      ],
+      "className": "memory",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "guesses": 0,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "function",
+        "props": Object {
+          "card": "😀",
+          "feedback": "hidden",
+          "index": 0,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🎉",
+          "feedback": "hidden",
+          "index": 1,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "card": "💖",
+          "feedback": "hidden",
+          "index": 2,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🎩",
+          "feedback": "hidden",
+          "index": 3,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🐶",
+          "feedback": "hidden",
+          "index": 4,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🐱",
+          "feedback": "hidden",
+          "index": 5,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "6",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🦄",
+          "feedback": "hidden",
+          "index": 6,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "7",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🐬",
+          "feedback": "hidden",
+          "index": 7,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "8",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🌍",
+          "feedback": "hidden",
+          "index": 8,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "9",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🌛",
+          "feedback": "hidden",
+          "index": 9,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "10",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🌞",
+          "feedback": "hidden",
+          "index": 10,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "11",
+        "nodeType": "function",
+        "props": Object {
+          "card": "💫",
+          "feedback": "hidden",
+          "index": 11,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "12",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍎",
+          "feedback": "hidden",
+          "index": 12,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "13",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍌",
+          "feedback": "hidden",
+          "index": 13,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "14",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍓",
+          "feedback": "hidden",
+          "index": 14,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "15",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍐",
+          "feedback": "hidden",
+          "index": 15,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "16",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍟",
+          "feedback": "hidden",
+          "index": 16,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "17",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍿",
+          "feedback": "hidden",
+          "index": 17,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "18",
+        "nodeType": "function",
+        "props": Object {
+          "card": "😀",
+          "feedback": "hidden",
+          "index": 18,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "19",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🎉",
+          "feedback": "hidden",
+          "index": 19,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "20",
+        "nodeType": "function",
+        "props": Object {
+          "card": "💖",
+          "feedback": "hidden",
+          "index": 20,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "21",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🎩",
+          "feedback": "hidden",
+          "index": 21,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "22",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🐶",
+          "feedback": "hidden",
+          "index": 22,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "23",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🐱",
+          "feedback": "hidden",
+          "index": 23,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "24",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🦄",
+          "feedback": "hidden",
+          "index": 24,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "25",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🐬",
+          "feedback": "hidden",
+          "index": 25,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "26",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🌍",
+          "feedback": "hidden",
+          "index": 26,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "27",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🌛",
+          "feedback": "hidden",
+          "index": 27,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "28",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🌞",
+          "feedback": "hidden",
+          "index": 28,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "29",
+        "nodeType": "function",
+        "props": Object {
+          "card": "💫",
+          "feedback": "hidden",
+          "index": 29,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "30",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍎",
+          "feedback": "hidden",
+          "index": 30,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "31",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍌",
+          "feedback": "hidden",
+          "index": 31,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "32",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍓",
+          "feedback": "hidden",
+          "index": 32,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "33",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍐",
+          "feedback": "hidden",
+          "index": 33,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "34",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍟",
+          "feedback": "hidden",
+          "index": 34,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "35",
+        "nodeType": "function",
+        "props": Object {
+          "card": "🍿",
+          "feedback": "hidden",
+          "index": 35,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <GuessCount
+            guesses={0}
+          />,
+          Array [
+            <Card
+              card="😀"
+              feedback="hidden"
+              index={0}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🎉"
+              feedback="hidden"
+              index={1}
+              onClick={[Function]}
+            />,
+            <Card
+              card="💖"
+              feedback="hidden"
+              index={2}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🎩"
+              feedback="hidden"
+              index={3}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🐶"
+              feedback="hidden"
+              index={4}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🐱"
+              feedback="hidden"
+              index={5}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🦄"
+              feedback="hidden"
+              index={6}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🐬"
+              feedback="hidden"
+              index={7}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🌍"
+              feedback="hidden"
+              index={8}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🌛"
+              feedback="hidden"
+              index={9}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🌞"
+              feedback="hidden"
+              index={10}
+              onClick={[Function]}
+            />,
+            <Card
+              card="💫"
+              feedback="hidden"
+              index={11}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍎"
+              feedback="hidden"
+              index={12}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍌"
+              feedback="hidden"
+              index={13}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍓"
+              feedback="hidden"
+              index={14}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍐"
+              feedback="hidden"
+              index={15}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍟"
+              feedback="hidden"
+              index={16}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍿"
+              feedback="hidden"
+              index={17}
+              onClick={[Function]}
+            />,
+            <Card
+              card="😀"
+              feedback="hidden"
+              index={18}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🎉"
+              feedback="hidden"
+              index={19}
+              onClick={[Function]}
+            />,
+            <Card
+              card="💖"
+              feedback="hidden"
+              index={20}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🎩"
+              feedback="hidden"
+              index={21}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🐶"
+              feedback="hidden"
+              index={22}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🐱"
+              feedback="hidden"
+              index={23}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🦄"
+              feedback="hidden"
+              index={24}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🐬"
+              feedback="hidden"
+              index={25}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🌍"
+              feedback="hidden"
+              index={26}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🌛"
+              feedback="hidden"
+              index={27}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🌞"
+              feedback="hidden"
+              index={28}
+              onClick={[Function]}
+            />,
+            <Card
+              card="💫"
+              feedback="hidden"
+              index={29}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍎"
+              feedback="hidden"
+              index={30}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍌"
+              feedback="hidden"
+              index={31}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍓"
+              feedback="hidden"
+              index={32}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍐"
+              feedback="hidden"
+              index={33}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍟"
+              feedback="hidden"
+              index={34}
+              onClick={[Function]}
+            />,
+            <Card
+              card="🍿"
+              feedback="hidden"
+              index={35}
+              onClick={[Function]}
+            />,
+          ],
+          false,
+        ],
+        "className": "memory",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "guesses": 0,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "function",
+          "props": Object {
+            "card": "😀",
+            "feedback": "hidden",
+            "index": 0,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🎉",
+            "feedback": "hidden",
+            "index": 1,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "card": "💖",
+            "feedback": "hidden",
+            "index": 2,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🎩",
+            "feedback": "hidden",
+            "index": 3,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🐶",
+            "feedback": "hidden",
+            "index": 4,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🐱",
+            "feedback": "hidden",
+            "index": 5,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "6",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🦄",
+            "feedback": "hidden",
+            "index": 6,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "7",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🐬",
+            "feedback": "hidden",
+            "index": 7,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "8",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🌍",
+            "feedback": "hidden",
+            "index": 8,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "9",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🌛",
+            "feedback": "hidden",
+            "index": 9,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🌞",
+            "feedback": "hidden",
+            "index": 10,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "11",
+          "nodeType": "function",
+          "props": Object {
+            "card": "💫",
+            "feedback": "hidden",
+            "index": 11,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "12",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍎",
+            "feedback": "hidden",
+            "index": 12,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "13",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍌",
+            "feedback": "hidden",
+            "index": 13,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "14",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍓",
+            "feedback": "hidden",
+            "index": 14,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "15",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍐",
+            "feedback": "hidden",
+            "index": 15,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "16",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍟",
+            "feedback": "hidden",
+            "index": 16,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "17",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍿",
+            "feedback": "hidden",
+            "index": 17,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "18",
+          "nodeType": "function",
+          "props": Object {
+            "card": "😀",
+            "feedback": "hidden",
+            "index": 18,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "19",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🎉",
+            "feedback": "hidden",
+            "index": 19,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "20",
+          "nodeType": "function",
+          "props": Object {
+            "card": "💖",
+            "feedback": "hidden",
+            "index": 20,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "21",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🎩",
+            "feedback": "hidden",
+            "index": 21,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "22",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🐶",
+            "feedback": "hidden",
+            "index": 22,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "23",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🐱",
+            "feedback": "hidden",
+            "index": 23,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "24",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🦄",
+            "feedback": "hidden",
+            "index": 24,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "25",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🐬",
+            "feedback": "hidden",
+            "index": 25,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "26",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🌍",
+            "feedback": "hidden",
+            "index": 26,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "27",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🌛",
+            "feedback": "hidden",
+            "index": 27,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "28",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🌞",
+            "feedback": "hidden",
+            "index": 28,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "29",
+          "nodeType": "function",
+          "props": Object {
+            "card": "💫",
+            "feedback": "hidden",
+            "index": 29,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "30",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍎",
+            "feedback": "hidden",
+            "index": 30,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "31",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍌",
+            "feedback": "hidden",
+            "index": 31,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "32",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍓",
+            "feedback": "hidden",
+            "index": 32,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "33",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍐",
+            "feedback": "hidden",
+            "index": 33,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "34",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍟",
+            "feedback": "hidden",
+            "index": 34,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "35",
+          "nodeType": "function",
+          "props": Object {
+            "card": "🍿",
+            "feedback": "hidden",
+            "index": 35,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

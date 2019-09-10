@@ -12,14 +12,25 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --setupFiles ./src/setupTests.js",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "chai-jest-diff": "^1.0.2",
+    "chai-jest-snapshot": "^2.0.0",
+    "dirty-chai": "^2.0.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.4.0",
     "eslint-config-prettier": "^2.6.0",
     "eslint-config-react-app": "^2.0.1",
     "eslint-plugin-prettier": "^2.3.1",
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "react-test-renderer": "^16.9.0",
+    "sinon": "^7.4.2",
+    "sinon-chai": "^3.3.0"
   },
   "prettier": {
     "semi": false,
